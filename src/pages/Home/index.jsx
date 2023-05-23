@@ -4,6 +4,7 @@ import { Menu } from "../../components/Menu";
 import { Banner } from "../../components/Banner";
 import { Footer } from "../../components/Footer";
 import { Gallery } from "../../components/Gallery";
+import { Popular } from "../../components/Popular";
 
 export function Home() {
     return (
@@ -14,10 +15,11 @@ export function Home() {
                     <Menu />
                     <Banner />
                 </section>
+                <div className={styles.gallery}>
+                    <Gallery />
+                    <Popular />
+                </div>
             </main>
-            <div>
-                <Gallery />
-            </div>
             <Footer />
         </>
     )
