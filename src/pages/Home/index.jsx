@@ -2,6 +2,7 @@ import styles from "./styles.module.scss";
 import { Header } from "../../components/Header";
 import { Menu } from "../../components/Menu";
 import { Banner } from "../../components/Banner";
+import { Footer } from "../../components/Footer";
 
 export function Home() {
     return (
@@ -10,11 +11,10 @@ export function Home() {
             <main>
                 <section className={styles.main}>
                     <Menu />
-                    <Banner /> 
+                    <Banner />
                 </section>
             </main>
-
+            <Footer />
         </>
-
     )
 }
