@@ -3,6 +3,7 @@ import { Header } from "../../components/Header";
 import { Menu } from "../../components/Menu";
 import { Banner } from "../../components/Banner";
 import { Footer } from "../../components/Footer";
+import { Gallery } from "../../components/Gallery";
 
 export function Home() {
     return (
@@ -14,6 +15,9 @@ export function Home() {
                     <Banner />
                 </section>
             </main>
+            <div>
+                <Gallery />
+            </div>
             <Footer />
         </>
     )
